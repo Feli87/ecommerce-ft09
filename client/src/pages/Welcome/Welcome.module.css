@@ -1,0 +1,107 @@
+.p{
+    color:white;
+    font-family: 'Goldman';
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 0.5em;
+}
+.div{
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+    float: right;
+    margin-right: 2em;
+    margin-top: 3em;
+
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}        
+.img{
+    width: 4em;
+    height: 3.7em;
+    align-self: center;
+    padding-right: 1em;
+}       
+.h1{
+    color: white;
+    font-family: 'Goldman';
+    font-size: 4rem;
+ }
+
+.text{
+    margin-top: -2em;
+}    
+
+.h3{
+    color:white;
+    font-family: 'Oxanium';
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 1em;
+} 
+.h2{
+    color:white;
+    font-family: 'Oxanium';
+    font-size: 2rem;
+    text-align: center;
+    margin-left: 1em;
+}  
+.button{
+    margin-left: 52%;
+    transform: translateX(-52%);
+    color: white;
+    font-size: 1.3rem;
+    border: 2px solid rgb(69, 5, 75);
+    border-radius: 0.3em;
+    box-shadow: 2px 2px 5px black;
+    background-color:transparent;
+    padding-right: 2em;
+    padding-left: 2em;
+    cursor: pointer;
+    outline: none;
+}
+.button:hover{
+    border: 2px solid rgb(151, 12, 163);
+    box-shadow: 2px 2prgb(108, 9, 117)
+
+}
+
+.button:active{
+    box-shadow: none;
+}
+@media(max-width:480px){
+    .p{
+        margin-top: 1em;
+    }
+    .container{
+        width: 100%;
+        float: none;
+        margin-right: 0;
+        margin-top: 3.5em;    
+    }
+    .logo{
+        padding-bottom: 4em;
+    }
+    .h2, .h3{
+        color:white;
+        font-family: 'Goldman' 'cursive';
+        font-size: 1.8rem;
+        font-weight: 0;
+        text-align: center;
+        margin-top: 0.5em;
+    }
+    .h1{
+        font-size: 3em;
+    }  
+    .button{
+        font-size: 1.8rem;
+
+    }  
+}

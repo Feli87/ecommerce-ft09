@@ -1,0 +1,27 @@
+.product--main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1{
+        color: white;
+    }
+    div{
+        color:white ;
+       h1{
+         color:white ;  
+       } 
+    }
+}
+.product--main-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+@media(max-width:480px){
+.product--main{
+    padding-top: 2em;
+    text-align: center;
+}
+}
